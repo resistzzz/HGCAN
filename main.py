@@ -39,9 +39,7 @@ parser.add_argument('--topk', type=list, default=[20], help='topk recommendation
 parser.add_argument('--toph', type=list, default=[10], help='topk recommendation')  # Top-10 Recommendation
 parser.add_argument('--save_path', default='model_save', help='save model root path')
 parser.add_argument('--save_epochs', default=[2, 4, 6, 8], type=list)
-parser.add_argument('--alpha', type=float, default=0.5)
 parser.add_argument('--hidden_size', type=int, default=100)
-parser.add_argument('--routing_iter', type=int, default=4)
 parser.add_argument('--hop', type=int, default=2)  # 1 or 2 or 3
 parser.add_argument('--sample_num', type=int, default=12)
 parser.add_argument('--dropout_gnn', type=float, default=0.2)
