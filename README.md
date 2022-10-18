@@ -13,7 +13,8 @@ We have provided the pre-processed datasets to support running our codes, you ca
 
 ## How to run this code
 
-Firstly, we run the file `build_graph.py` to generate the graph files (We have provided the generated graph files in `datasets` directory).
+Firstly, we run the file `build_graph.py` to generate the graph files.
+(We have provided the generated graph files in `datasets` directory).
 
 Then we run the file `main.py` to train the model and obtain the performance.
 
