@@ -3,7 +3,7 @@ import argparse
 import numpy as np
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', default='yoochoose1_8x', help='yoochoose1_8xdiginetica_x/Tmall/Nowplaying')
+parser.add_argument('--dataset', default='yoochoose1_8x', help='YC/DIG/JD/sample')
 parser.add_argument('--sample_num', type=int, default=12)
 parser.add_argument('--theta', type=int, default=2)
 opt = parser.parse_args()
