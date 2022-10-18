@@ -1,5 +1,7 @@
 ## HGCAN: The source code of a paper that sumbmitted for ICDE and under reviewing
-## We have used three public datasets in our paper, you can download the raw datasets from following url:
+## We have used three public datasets in our paper as follows: 
+
+You can download the raw datasets from following url:
 
 - DIG: <http://cikm2016.cs.iupui.edu/cikm-cup> 
 
@@ -11,7 +13,7 @@ We have provided the pre-processed datasets to support running our codes, you ca
 
 ## How to run this code
 
-Firstly, we run the file `build_graph.py` to generate the graph files (We have provided the graph files in `datasets` directory).
+Firstly, we run the file `build_graph.py` to generate the graph files (We have provided the generated graph files in `datasets` directory).
 
 Then we run the file `main.py` to train the model and obtain the performance.
 
@@ -24,3 +26,5 @@ python main.py --dataset DIG --batch_size 100 --cate_select 5 --dice_threshold 1
 
 - Python3
 - pytorch==1.9.0+cu111
+
+After you have configured your environment, you can run this code directly to obtain experimental results.
