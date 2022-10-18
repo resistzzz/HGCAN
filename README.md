@@ -9,7 +9,7 @@
 
 We have provided the pre-processed datasets to support running our codes, you can find them in `datasets` directory.
 
-# How to run this code
+## How to run this code
 
 Firstly, we run the file `build_graph.py` to generate the graph files (We have provided the graph files in `datasets` directory).
 
@@ -20,7 +20,7 @@ Take DIG dataset as example:
 python build_graph.py --dataset DIG
 python main.py --dataset DIG --batch_size 100 --cate_select 5 --dice_threshold 1.0
 ```
-# Requirements
+## Requirements
 
 - Python3
 - pytorch==1.9.0+cu111
