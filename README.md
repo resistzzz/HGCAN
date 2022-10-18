@@ -26,7 +26,7 @@ python main.py --dataset DIG --batch_size 100 --cate_select 5 --dice_threshold 1
 ```
 ## Requirements
 
-- Python3
+- Python 3.6
 - pytorch==1.9.0+cu111
 
 After you have configured your environment, you can run this code directly to obtain experimental results.
