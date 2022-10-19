@@ -1,4 +1,4 @@
-## HGCAN: The source code of a paper that sumbmitted for ICDE and under reviewing
+## HGCAN: The source code of a paper for ICDE 2023
 ## We have used three public datasets in our paper as follows: 
 
 You can download the raw datasets from following url:
