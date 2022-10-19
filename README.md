@@ -17,7 +17,7 @@ Firstly, we run the file `build_graph.py` to generate the graph files.
 
 (We have provided the generated graph files in `datasets` directory).
 
-Then we run the file `main.py` to train the model and obtain the performance.
+Then we run the file `main.py` to train the model and simulate the conversations to obtain the final performance.
 
 Take DIG dataset as example:
 ```
