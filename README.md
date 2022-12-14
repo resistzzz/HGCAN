@@ -1,4 +1,4 @@
-## HGCAN: The source code of a paper for ICDE 2023
+## HGCAN: The source code of a paper for TWEB under review
 ## We have used three public datasets in our paper as follows: 
 
 You can download the raw datasets from following url:
@@ -18,6 +18,8 @@ Firstly, we run the file `build_graph.py` to generate the graph files.
 (We have provided the generated graph files in `datasets` directory).
 
 Then we run the file `main.py` to train the model and simulate the conversations to obtain the final performance.
+
+(You need to manually create a log folder `./log` to store the log files, if you are prompted for a missing log file. )
 
 Take DIG dataset as example:
 ```
